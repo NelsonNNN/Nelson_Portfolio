@@ -1,0 +1,53 @@
+$primary-color: #363636;
+$secondary-color: #e5ff00;
+$background-opacity: 0.9;
+
+@mixin easeOut {
+  transition: all 0.3s ease-out;
+}
+
+@mixin animate($del) {
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-delay: $del; 
+}
+
+@mixin background($bck, $idx, $set) {
+    background-attachment: fixed;
+    background-size: cover;
+
+    &:after {
+    content: '';
+    position: $set;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: $idx;
+    background: $bck;
+    }
+}
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+//Media queries
+@mixin smallDevices {
+  @media screen and (max-width: 350px) {
+    @content;
+  }
+}
+
+@mixin mediumDevices {
+  @media screen and (max-width: 800px) {
+    @content;
+  }
+}

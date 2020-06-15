@@ -1,0 +1,17 @@
+{
+  "name": "ownportfolio",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "main.js",
+  "homepage": "https://nelsonnnn.github.io/Nelson-s-Portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Nelson Nyamwaro Nyabuto",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.0.0",
+    "node-sass": "^4.14.1"
+  }
+}
