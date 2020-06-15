@@ -126,7 +126,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("/templates/pictures/menupic.jpg");
+      background: url("/dist/templates/pictures/menupic.jpg");
       background-size: cover;
       border-radius: 50%;
       border: solid 3px #e5ff00; }
@@ -237,7 +237,7 @@ main {
         width: 100vw;
         height: 100vh;
         z-index: -1;
-        background: url("/templates/pictures/mytitle.jpg"); }
+        background: url("/dist/templates/pictures/mytitle.jpg"); }
       main .container .my-title .my-name {
         margin: 2rem 0;
         padding: 0.2rem 1rem;
@@ -613,7 +613,7 @@ main {
       transition-delay: 0s;
       height: 25vh; }
     .menu-branding .portrait {
-      background: url("/templates/pictures/menupic.jpg");
+      background: url("/dist/templates/pictures/menupic.jpg");
       background-size: cover;
       width: 150px;
       height: 150px; }
