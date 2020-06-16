@@ -119,6 +119,8 @@ main{
         #myitems{
             display: flex;
             background: #1b1b1b;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px 0.1px $secondary-color;
             .icons{
                 display: flex;
                 flex-direction: column;
@@ -255,6 +257,8 @@ main{
         #aboutme{
             display: flex;
             background: #1b1b1b;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px 0.1px $secondary-color;
 
             .profile{
                 width: 50%;
@@ -323,6 +327,8 @@ main{
         .mycontacts{
             margin: 2rem 0.5rem;
             background: #1b1b1b;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px 0.1px $secondary-color;
 
             .boxes {
                 display: flex;
@@ -391,6 +397,8 @@ main{
         .backfront{
             margin: 2rem 0.5rem;
             background: #1b1b1b;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px 0.1px $secondary-color;
             display: flex;
             justify-content: space-between;
             a{
@@ -420,6 +428,8 @@ main{
               align-items: center;
               margin-bottom: 3rem;
               background:  #1b1b1b ;
+              border-radius: 10px;
+              box-shadow: 3px 3px 10px 0.1px $secondary-color;
           
               .description{
                 grid-column-start: 1;
