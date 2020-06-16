@@ -266,7 +266,9 @@ main {
           transform: scale(1.1); }
     main .container #myitems {
       display: flex;
-      background: #1b1b1b; }
+      background: #1b1b1b;
+      border-radius: 10px;
+      box-shadow: 3px 3px 10px 0.1px #e5ff00; }
       main .container #myitems .icons {
         display: flex;
         flex-direction: column;
@@ -423,7 +425,9 @@ main {
     right: 0; } }
     main .container #aboutme {
       display: flex;
-      background: #1b1b1b; }
+      background: #1b1b1b;
+      border-radius: 10px;
+      box-shadow: 3px 3px 10px 0.1px #e5ff00; }
       main .container #aboutme .profile {
         width: 50%;
         margin: 2rem 0.5rem; }
@@ -495,7 +499,9 @@ main {
     right: 0; } }
     main .container .mycontacts {
       margin: 2rem 0.5rem;
-      background: #1b1b1b; }
+      background: #1b1b1b;
+      border-radius: 10px;
+      box-shadow: 3px 3px 10px 0.1px #e5ff00; }
       main .container .mycontacts .boxes {
         display: flex;
         flex-wrap: wrap;
@@ -547,6 +553,8 @@ main {
     main .container .backfront {
       margin: 2rem 0.5rem;
       background: #1b1b1b;
+      border-radius: 10px;
+      box-shadow: 3px 3px 10px 0.1px #e5ff00;
       display: flex;
       justify-content: space-between; }
       main .container .backfront a {
@@ -569,7 +577,9 @@ main {
         grid-template-rows: auto auto;
         align-items: center;
         margin-bottom: 3rem;
-        background: #1b1b1b; }
+        background: #1b1b1b;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px 0.1px #e5ff00; }
         main .container .projects .item .description {
           grid-column-start: 1;
           grid-column-end: 3;
