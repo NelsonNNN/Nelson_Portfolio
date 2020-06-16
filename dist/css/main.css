@@ -287,39 +287,42 @@ main {
           width: 100%; }
           main .container #myitems .icons ul li {
             position: relative;
-            list-style: none; }
-            main .container #myitems .icons ul li:nth-of-type(1) {
-              animation: kwanza;
-              animation-duration: 1s;
-              animation-direction: normal;
-              animation-fill-mode: both;
-              animation-timing-function: ease;
-              animation-delay: 1s;
-              transition: all 0.3s ease-out; }
-            main .container #myitems .icons ul li:nth-of-type(2) {
-              animation: pili;
-              animation-duration: 1s;
-              animation-direction: normal;
-              animation-fill-mode: both;
-              animation-timing-function: ease;
-              animation-delay: 0.7s;
-              transition: all 0.3s ease-out; }
-            main .container #myitems .icons ul li:nth-of-type(3) {
-              animation: tatu;
-              animation-duration: 1s;
-              animation-direction: normal;
-              animation-fill-mode: both;
-              animation-timing-function: ease;
-              animation-delay: 0.5s;
-              transition: all 0.3s ease-out; }
-            main .container #myitems .icons ul li:nth-of-type(4) {
-              animation: nne;
-              animation-duration: 1s;
-              animation-direction: normal;
-              animation-fill-mode: both;
-              animation-timing-function: ease;
-              animation-delay: 0.3s;
-              transition: all 0.3s ease-out; }
+            list-style: none;
+            visibility: hidden; }
+            main .container #myitems .icons ul li.animate {
+              visibility: visible; }
+              main .container #myitems .icons ul li.animate:nth-of-type(1) {
+                animation: kwanza;
+                animation-duration: 1s;
+                animation-direction: normal;
+                animation-fill-mode: both;
+                animation-timing-function: ease;
+                animation-delay: 1s;
+                transition: all 0.3s ease-out; }
+              main .container #myitems .icons ul li.animate:nth-of-type(2) {
+                animation: pili;
+                animation-duration: 1s;
+                animation-direction: normal;
+                animation-fill-mode: both;
+                animation-timing-function: ease;
+                animation-delay: 0.7s;
+                transition: all 0.3s ease-out; }
+              main .container #myitems .icons ul li.animate:nth-of-type(3) {
+                animation: tatu;
+                animation-duration: 1s;
+                animation-direction: normal;
+                animation-fill-mode: both;
+                animation-timing-function: ease;
+                animation-delay: 0.5s;
+                transition: all 0.3s ease-out; }
+              main .container #myitems .icons ul li.animate:nth-of-type(4) {
+                animation: nne;
+                animation-duration: 1s;
+                animation-direction: normal;
+                animation-fill-mode: both;
+                animation-timing-function: ease;
+                animation-delay: 0.3s;
+                transition: all 0.3s ease-out; }
             main .container #myitems .icons ul li i {
               color: #e5ff00; }
 
@@ -354,39 +357,42 @@ main {
           main .container #myitems .icons .subicons a {
             position: relative;
             list-style: none;
-            transition: all 0.3s ease-out; }
-            main .container #myitems .icons .subicons a:nth-of-type(1) {
-              animation: unos;
-              animation-duration: 1s;
-              animation-direction: normal;
-              animation-fill-mode: both;
-              animation-timing-function: ease;
-              animation-delay: 0.3s;
-              transition: all 0.3s ease-out; }
-            main .container #myitems .icons .subicons a:nth-of-type(2) {
-              animation: des;
-              animation-duration: 1s;
-              animation-direction: normal;
-              animation-fill-mode: both;
-              animation-timing-function: ease;
-              animation-delay: 0.5s;
-              transition: all 0.3s ease-out; }
-            main .container #myitems .icons .subicons a:nth-of-type(3) {
-              animation: tres;
-              animation-duration: 1s;
-              animation-direction: normal;
-              animation-fill-mode: both;
-              animation-timing-function: ease;
-              animation-delay: 0.7s;
-              transition: all 0.3s ease-out; }
-            main .container #myitems .icons .subicons a:nth-of-type(4) {
-              animation: quadre;
-              animation-duration: 1s;
-              animation-direction: normal;
-              animation-fill-mode: both;
-              animation-timing-function: ease;
-              animation-delay: 1s;
-              transition: all 0.3s ease-out; }
+            transition: all 0.3s ease-out;
+            visibility: hidden; }
+            main .container #myitems .icons .subicons a.animate {
+              visibility: visible; }
+              main .container #myitems .icons .subicons a.animate:nth-of-type(1) {
+                animation: unos;
+                animation-duration: 1s;
+                animation-direction: normal;
+                animation-fill-mode: both;
+                animation-timing-function: ease;
+                animation-delay: 0.3s;
+                transition: all 0.3s ease-out; }
+              main .container #myitems .icons .subicons a.animate:nth-of-type(2) {
+                animation: des;
+                animation-duration: 1s;
+                animation-direction: normal;
+                animation-fill-mode: both;
+                animation-timing-function: ease;
+                animation-delay: 0.5s;
+                transition: all 0.3s ease-out; }
+              main .container #myitems .icons .subicons a.animate:nth-of-type(3) {
+                animation: tres;
+                animation-duration: 1s;
+                animation-direction: normal;
+                animation-fill-mode: both;
+                animation-timing-function: ease;
+                animation-delay: 0.7s;
+                transition: all 0.3s ease-out; }
+              main .container #myitems .icons .subicons a.animate:nth-of-type(4) {
+                animation: quadre;
+                animation-duration: 1s;
+                animation-direction: normal;
+                animation-fill-mode: both;
+                animation-timing-function: ease;
+                animation-delay: 1s;
+                transition: all 0.3s ease-out; }
             main .container #myitems .icons .subicons a:hover {
               transform: scale(1.3); }
             main .container #myitems .icons .subicons a i {
@@ -415,50 +421,74 @@ main {
     right: -500px; }
   100% {
     right: 0; } }
-    main .container .aboutme {
+    main .container #aboutme {
       display: flex;
       background: #1b1b1b; }
-      main .container .aboutme .profile {
+      main .container #aboutme .profile {
         width: 50%;
         margin: 2rem 0.5rem; }
-        main .container .aboutme .profile img {
+        main .container #aboutme .profile .profilepic {
           position: relative;
-          animation: picture;
-          animation-duration: 1s;
-          animation-direction: normal;
-          animation-fill-mode: both;
-          animation-timing-function: ease;
-          animation-delay: 1s;
-          transition: all 0.3s ease-out;
           margin: auto;
           border-radius: 50%;
           border: #e5ff00 solid;
           width: 50%;
-          height: 70%; }
+          height: 70%;
+          visibility: hidden; }
+          main .container #aboutme .profile .profilepic.reveal {
+            animation: picture;
+            animation-duration: 1s;
+            animation-direction: normal;
+            animation-fill-mode: both;
+            animation-timing-function: ease;
+            animation-delay: 0.5s;
+            transition: all 0.3s ease-out;
+            visibility: visible; }
 
 @keyframes picture {
   0% {
     left: -900px; }
   100% {
     left: 0; } }
-      main .container .aboutme .myabout {
+      main .container #aboutme .myabout {
         display: flex;
         flex-direction: column;
         width: 50%;
         margin: 2rem 0.5rem; }
-        main .container .aboutme .myabout h2, main .container .aboutme .myabout p {
-          position: relative;
-          animation: info;
-          animation-duration: 1s;
-          animation-direction: normal;
-          animation-fill-mode: both;
-          animation-timing-function: ease;
-          animation-delay: 1s;
-          transition: all 0.3s ease-out; }
-          main .container .aboutme .myabout h2 a, main .container .aboutme .myabout p a {
+        main .container #aboutme .myabout .headsup {
+          visibility: hidden; }
+          main .container #aboutme .myabout .headsup.revealToo {
+            position: relative;
+            animation: heading;
+            animation-duration: 1s;
+            animation-direction: normal;
+            animation-fill-mode: both;
+            animation-timing-function: ease;
+            animation-delay: 0.5s;
+            transition: all 0.3s ease-out;
+            visibility: visible; }
+        main .container #aboutme .myabout .paragraph {
+          visibility: hidden; }
+          main .container #aboutme .myabout .paragraph.revealThree {
+            position: relative;
+            animation: paragraphOne;
+            animation-duration: 1s;
+            animation-direction: normal;
+            animation-fill-mode: both;
+            animation-timing-function: ease;
+            animation-delay: 0.5s;
+            transition: all 0.3s ease-out;
+            visibility: visible; }
+          main .container #aboutme .myabout .paragraph a {
             color: #e5ff00; }
 
-@keyframes info {
+@keyframes heading {
+  0% {
+    right: -800px; }
+  100% {
+    right: 0; } }
+
+@keyframes paragraphOne {
   0% {
     right: -800px; }
   100% {
@@ -642,25 +672,25 @@ main {
             top: 115%;
             height: 0;
             left: 13vw; }
-        body main .container #myitems .icons ul li:nth-of-type(1) {
+        body main .container #myitems .icons ul li.animate:nth-of-type(1) {
           animation-duration: 1s;
           animation-direction: normal;
           animation-fill-mode: both;
           animation-timing-function: ease;
           animation-delay: 0.5s; }
-        body main .container #myitems .icons ul li:nth-of-type(2) {
+        body main .container #myitems .icons ul li.animate:nth-of-type(2) {
           animation-duration: 1s;
           animation-direction: normal;
           animation-fill-mode: both;
           animation-timing-function: ease;
           animation-delay: 0.5s; }
-        body main .container #myitems .icons ul li:nth-of-type(3) {
+        body main .container #myitems .icons ul li.animate:nth-of-type(3) {
           animation-duration: 1s;
           animation-direction: normal;
           animation-fill-mode: both;
           animation-timing-function: ease;
           animation-delay: 0.5s; }
-        body main .container #myitems .icons ul li:nth-of-type(4) {
+        body main .container #myitems .icons ul li.animate:nth-of-type(4) {
           animation-duration: 1s;
           animation-direction: normal;
           animation-fill-mode: both;
@@ -686,25 +716,25 @@ main {
       opacity: 0; }
     100% {
       opacity: 1; } }
-        body main .container #myitems .icons .subicons a:nth-of-type(1) {
+        body main .container #myitems .icons .subicons a.animate:nth-of-type(1) {
           animation-duration: 1s;
           animation-direction: normal;
           animation-fill-mode: both;
           animation-timing-function: ease;
           animation-delay: 0.8s; }
-        body main .container #myitems .icons .subicons a:nth-of-type(2) {
+        body main .container #myitems .icons .subicons a.animate:nth-of-type(2) {
           animation-duration: 1s;
           animation-direction: normal;
           animation-fill-mode: both;
           animation-timing-function: ease;
           animation-delay: 0.8s; }
-        body main .container #myitems .icons .subicons a:nth-of-type(3) {
+        body main .container #myitems .icons .subicons a.animate:nth-of-type(3) {
           animation-duration: 1s;
           animation-direction: normal;
           animation-fill-mode: both;
           animation-timing-function: ease;
           animation-delay: 0.8s; }
-        body main .container #myitems .icons .subicons a:nth-of-type(4) {
+        body main .container #myitems .icons .subicons a.animate:nth-of-type(4) {
           animation-duration: 1s;
           animation-direction: normal;
           animation-fill-mode: both;
@@ -730,16 +760,53 @@ main {
       opacity: 0; }
     100% {
       opacity: 1; } }
-    body main .container .aboutme {
+    body main .container #aboutme {
       flex-direction: column;
       margin-bottom: 0.5rem;
       margin-top: 4rem; }
-      body main .container .aboutme .profile {
+      body main .container #aboutme .profile {
         margin: 0.5rem 0;
         width: 100%; }
-      body main .container .aboutme .myabout {
+      body main .container #aboutme .myabout {
         margin: 0.5rem 0;
         width: 100%; }
+        body main .container #aboutme .myabout .headsup {
+          visibility: hidden; }
+          body main .container #aboutme .myabout .headsup.revealToo {
+            animation-duration: 0s;
+            position: relative;
+            animation: smallheading;
+            animation-duration: 1s;
+            animation-direction: normal;
+            animation-fill-mode: both;
+            animation-timing-function: ease;
+            animation-delay: 1s;
+            transition: all 0.3s ease-out;
+            visibility: visible; }
+        body main .container #aboutme .myabout .paragraph {
+          visibility: hidden; }
+          body main .container #aboutme .myabout .paragraph.revealThree {
+            position: relative;
+            animation: smallparagraph;
+            animation-duration: 1s;
+            animation-direction: normal;
+            animation-fill-mode: both;
+            animation-timing-function: ease;
+            animation-delay: 1s;
+            transition: all 0.3s ease-out;
+            visibility: visible; }
+          body main .container #aboutme .myabout .paragraph a {
+            color: #e5ff00; }
+  @keyframes smallheading {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes smallparagraph {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
     body main .container .mycontacts .boxes div {
       margin: 0.5rem 0; }
     body main .container .projects .item {

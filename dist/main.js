@@ -3,10 +3,19 @@ const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
 const menuBranding = document.querySelector('.menu-branding');
 const navItems = document.querySelectorAll('.nav-item');
+const myItems = document.querySelector('#myitems')
+const skillList = document.querySelectorAll('.skill-list')
+const smLink = document.querySelectorAll('.sm-link')
+const aboutMe = document.querySelector('#aboutme')
+const profile = document.querySelector('.profilepic')
+const headsup = document.querySelector('.headsup')
+const paragraph = document.querySelector('.paragraph')
+
 
 // Set Initial State Of Menu
 let showMenu = false;
 
+window.addEventListener('scroll', addAnimation)
 menuBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
@@ -32,3 +41,35 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+const isInViewport = function (elem) {
+  const bounding = elem.getBoundingClientRect();
+  return (
+    bounding.top <= (window.innerHeight || document.documentElement.clientHeight)&&
+    bounding.bottom > 0 &&
+    bounding.left <= (window.innerWidth || document.documentElement.clientWidth) &&
+    bounding.right > 0
+  )
+};
+
+function addAnimation(){
+  if(isInViewport(myItems)){
+    skillList.forEach(skill => skill.classList.add('animate'))
+    smLink.forEach(item => item.classList.add('animate'))
+  }
+  else{
+    skillList.forEach(skill => skill.classList.remove('animate'))
+    smLink.forEach(item => item.classList.remove('animate'))
+  }
+  if(isInViewport(aboutMe)){
+    profile.classList.add('reveal')
+    headsup.classList.add('revealToo')
+    paragraph.classList.add('revealThree')
+  }else{
+    profile.classList.remove('reveal')
+    headsup.classList.remove('revealToo')
+    paragraph.classList.remove('revealThree')
+  }
+}
+
+
