@@ -1,3 +1,127 @@
+//Large Devices
+@include largeDevices{
+    body main .container #myitems{
+        ul li{
+            &.animate{
+                &:nth-of-type(1){
+                    @include animate(0.5s);
+                }
+                &:nth-of-type(2){
+                    @include animate(0.5s);
+                }
+                &:nth-of-type(3){
+                    @include animate(0.5s);
+                }
+                &:nth-of-type(4){
+                    @include animate(0.5s);
+                }
+            }
+            @keyframes kwanza{
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+            }
+            @keyframes pili{
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+            }
+            @keyframes tatu{
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+            }   
+            @keyframes nne{
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+            }
+        }
+        .subicons a{
+            &.animate{
+                &:nth-of-type(1){
+                    @include animate(0.8s);
+                }
+                &:nth-of-type(2){
+                    @include animate(0.8s);
+                }
+                &:nth-of-type(3){
+                    @include animate(0.8s);
+                }
+                &:nth-of-type(4){
+                    @include animate(0.8s);
+                }
+            }
+            @keyframes unos{
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+            }
+            @keyframes des{
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+            }
+            @keyframes tres{
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+            }
+            @keyframes quadre{
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+            }
+        }
+    }
+    body main .container .aboutme{
+        .profile .profilepic{
+            position: relative;
+            margin: auto;
+            border-radius: 50%;
+            border: $secondary-color solid;
+            width: 50%;
+            height: 70%;
+            visibility: hidden;
+            &.reveal{
+                animation: picture;
+                @include animate(1s);
+                @include easeOut;
+                visibility: visible;
+            }
+        }
+        @keyframes picture {
+            0%{opacity: 0;}
+            50%{opacity:0.5;}
+            100%{opacity:1;}
+        }
+        .myabout .headsup{
+            visibility: hidden;
+            &.revealToo{
+                animation-duration: 0s;
+                position: relative;
+                animation: smallheading;
+                @include animate(3s);
+                @include easeOut;
+                visibility: visible;
+            }
+        } 
+        .myabout .paragraph{
+            visibility: hidden;
+            &.revealThree{
+                position: relative;
+                animation: smallparagraph;
+                @include animate(1s);
+                @include easeOut;
+                visibility: visible;
+            }
+            a{
+                color:$secondary-color;
+            }
+        }
+        @keyframes smallheading {
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+        @keyframes smallparagraph {
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+    }
+}
+
 // Tablets & Small Laptops
   @include mediumDevices {
     ul.menu-nav,
@@ -60,7 +184,6 @@
             #myitems{
                 flex-direction: column;
                 margin-bottom: 0.5rem;
-
                 .icons{
                     width: 100%;
                     margin: 1rem 0;
@@ -78,73 +201,8 @@
                             left: 13vw;
                         }
                     }
-                    ul li{
-                        &.animate{
-                            &:nth-of-type(1){
-                                @include animate(0.5s);
-                            }
-                            &:nth-of-type(2){
-                                @include animate(0.5s);
-                            }
-                            &:nth-of-type(3){
-                                @include animate(0.5s);
-                            }
-                            &:nth-of-type(4){
-                                @include animate(0.5s);
-                            }
-                        }
-                        @keyframes kwanza{
-                            0%{opacity: 0;}
-                            100%{opacity: 1;}
-                        }
-                        @keyframes pili{
-                            0%{opacity: 0;}
-                            100%{opacity: 1;}
-                        }
-                        @keyframes tatu{
-                            0%{opacity: 0;}
-                            100%{opacity: 1;}
-                        }   
-                        @keyframes nne{
-                            0%{opacity: 0;}
-                            100%{opacity: 1;}
-                        }
-                    }
-                    .subicons a{
-                        &.animate{
-                            &:nth-of-type(1){
-                                @include animate(0.8s);
-                            }
-                            &:nth-of-type(2){
-                                @include animate(0.8s);
-                            }
-                            &:nth-of-type(3){
-                                @include animate(0.8s);
-                            }
-                            &:nth-of-type(4){
-                                @include animate(0.8s);
-                            }
-                        }
-                        @keyframes unos{
-                            0%{opacity: 0;}
-                            100%{opacity: 1;}
-                        }
-                        @keyframes des{
-                            0%{opacity: 0;}
-                            100%{opacity: 1;}
-                        }
-                        @keyframes tres{
-                            0%{opacity: 0;}
-                            100%{opacity: 1;}
-                        }
-                        @keyframes quadre{
-                            0%{opacity: 0;}
-                            100%{opacity: 1;}
-                        }
-                    }
                 }
             }
-
             #aboutme{
                 flex-direction: column;
                 margin-bottom: 0.5rem;
@@ -156,38 +214,6 @@
                 .myabout{
                     margin: 0.5rem 0;
                     width: 100%;
-                    .headsup{
-                        visibility: hidden;
-                        &.revealToo{
-                            animation-duration: 0s;
-                            position: relative;
-                            animation: smallheading;
-                            @include animate(1s);
-                            @include easeOut;
-                            visibility: visible;
-                        }
-                    } 
-                    .paragraph{
-                        visibility: hidden;
-                        &.revealThree{
-                            position: relative;
-                            animation: smallparagraph;
-                            @include animate(1s);
-                            @include easeOut;
-                            visibility: visible;
-                        }
-                        a{
-                            color:$secondary-color;
-                        }
-                    }
-                    @keyframes smallheading {
-                        0%{opacity: 0;}
-                        100%{opacity: 1;}
-                    }
-                    @keyframes smallparagraph {
-                        0%{opacity: 0;}
-                        100%{opacity: 1;}
-                    }
                 }
             }
 

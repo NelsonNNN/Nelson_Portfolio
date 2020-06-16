@@ -330,25 +330,25 @@ main {
 
 @keyframes kwanza {
   0% {
-    left: -500px; }
+    left: -2000px; }
   100% {
     left: 0; } }
 
 @keyframes pili {
   0% {
-    left: -500px; }
+    left: -2000px; }
   100% {
     left: 0; } }
 
 @keyframes tatu {
   0% {
-    left: -500px; }
+    left: -2000px; }
   100% {
     left: 0; } }
 
 @keyframes nne {
   0% {
-    left: -800px; }
+    left: -200px; }
   100% {
     left: 0; } }
         main .container #myitems .icons .subicons {
@@ -402,25 +402,25 @@ main {
 
 @keyframes unos {
   0% {
-    right: -800px; }
+    right: -2000px; }
   100% {
     right: 0; } }
 
 @keyframes des {
   0% {
-    right: -500px; }
+    right: -2000px; }
   100% {
     right: 0; } }
 
 @keyframes tres {
   0% {
-    right: -500px; }
+    right: -2000px; }
   100% {
     right: 0; } }
 
 @keyframes quadre {
   0% {
-    right: -500px; }
+    right: -2000px; }
   100% {
     right: 0; } }
     main .container #aboutme {
@@ -451,7 +451,7 @@ main {
 
 @keyframes picture {
   0% {
-    left: -900px; }
+    left: -2000px; }
   100% {
     left: 0; } }
       main .container #aboutme .myabout {
@@ -462,39 +462,40 @@ main {
         main .container #aboutme .myabout .headsup {
           visibility: hidden; }
           main .container #aboutme .myabout .headsup.revealToo {
+            animation-duration: 0s;
             position: relative;
-            animation: heading;
+            animation: smallheading;
             animation-duration: 1s;
             animation-direction: normal;
             animation-fill-mode: both;
             animation-timing-function: ease;
-            animation-delay: 0.5s;
+            animation-delay: 1s;
             transition: all 0.3s ease-out;
             visibility: visible; }
         main .container #aboutme .myabout .paragraph {
           visibility: hidden; }
           main .container #aboutme .myabout .paragraph.revealThree {
             position: relative;
-            animation: paragraphOne;
+            animation: smallparagraph;
             animation-duration: 1s;
             animation-direction: normal;
             animation-fill-mode: both;
             animation-timing-function: ease;
-            animation-delay: 0.5s;
+            animation-delay: 1s;
             transition: all 0.3s ease-out;
             visibility: visible; }
           main .container #aboutme .myabout .paragraph a {
             color: #e5ff00; }
 
-@keyframes heading {
+@keyframes smallheading {
   0% {
-    right: -800px; }
+    right: -2000px; }
   100% {
     right: 0; } }
 
-@keyframes paragraphOne {
+@keyframes smallparagraph {
   0% {
-    right: -800px; }
+    right: -2000px; }
   100% {
     right: 0; } }
     main .container .mycontacts {
@@ -624,6 +625,157 @@ main {
   color: #fff;
   height: 60px; }
 
+@media screen and (max-width: 1440px) {
+  body main .container #myitems ul li.animate:nth-of-type(1) {
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-delay: 0.5s; }
+  body main .container #myitems ul li.animate:nth-of-type(2) {
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-delay: 0.5s; }
+  body main .container #myitems ul li.animate:nth-of-type(3) {
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-delay: 0.5s; }
+  body main .container #myitems ul li.animate:nth-of-type(4) {
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-delay: 0.5s; }
+  @keyframes kwanza {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes pili {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes tatu {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes nne {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  body main .container #myitems .subicons a.animate:nth-of-type(1) {
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-delay: 0.8s; }
+  body main .container #myitems .subicons a.animate:nth-of-type(2) {
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-delay: 0.8s; }
+  body main .container #myitems .subicons a.animate:nth-of-type(3) {
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-delay: 0.8s; }
+  body main .container #myitems .subicons a.animate:nth-of-type(4) {
+    animation-duration: 1s;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-delay: 0.8s; }
+  @keyframes unos {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes des {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes tres {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes quadre {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  body main .container .aboutme .profile .profilepic {
+    position: relative;
+    margin: auto;
+    border-radius: 50%;
+    border: #e5ff00 solid;
+    width: 50%;
+    height: 70%;
+    visibility: hidden; }
+    body main .container .aboutme .profile .profilepic.reveal {
+      animation: picture;
+      animation-duration: 1s;
+      animation-direction: normal;
+      animation-fill-mode: both;
+      animation-timing-function: ease;
+      animation-delay: 1s;
+      transition: all 0.3s ease-out;
+      visibility: visible; }
+  @keyframes picture {
+    0% {
+      opacity: 0; }
+    50% {
+      opacity: 0.5; }
+    100% {
+      opacity: 1; } }
+  body main .container .aboutme .myabout .headsup {
+    visibility: hidden; }
+    body main .container .aboutme .myabout .headsup.revealToo {
+      animation-duration: 0s;
+      position: relative;
+      animation: smallheading;
+      animation-duration: 1s;
+      animation-direction: normal;
+      animation-fill-mode: both;
+      animation-timing-function: ease;
+      animation-delay: 3s;
+      transition: all 0.3s ease-out;
+      visibility: visible; }
+  body main .container .aboutme .myabout .paragraph {
+    visibility: hidden; }
+    body main .container .aboutme .myabout .paragraph.revealThree {
+      position: relative;
+      animation: smallparagraph;
+      animation-duration: 1s;
+      animation-direction: normal;
+      animation-fill-mode: both;
+      animation-timing-function: ease;
+      animation-delay: 1s;
+      transition: all 0.3s ease-out;
+      visibility: visible; }
+    body main .container .aboutme .myabout .paragraph a {
+      color: #e5ff00; }
+  @keyframes smallheading {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes smallparagraph {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } } }
+
 @media screen and (max-width: 800px) {
   ul.menu-nav,
   div.menu-branding {
@@ -682,94 +834,6 @@ main {
             top: 115%;
             height: 0;
             left: 13vw; }
-        body main .container #myitems .icons ul li.animate:nth-of-type(1) {
-          animation-duration: 1s;
-          animation-direction: normal;
-          animation-fill-mode: both;
-          animation-timing-function: ease;
-          animation-delay: 0.5s; }
-        body main .container #myitems .icons ul li.animate:nth-of-type(2) {
-          animation-duration: 1s;
-          animation-direction: normal;
-          animation-fill-mode: both;
-          animation-timing-function: ease;
-          animation-delay: 0.5s; }
-        body main .container #myitems .icons ul li.animate:nth-of-type(3) {
-          animation-duration: 1s;
-          animation-direction: normal;
-          animation-fill-mode: both;
-          animation-timing-function: ease;
-          animation-delay: 0.5s; }
-        body main .container #myitems .icons ul li.animate:nth-of-type(4) {
-          animation-duration: 1s;
-          animation-direction: normal;
-          animation-fill-mode: both;
-          animation-timing-function: ease;
-          animation-delay: 0.5s; }
-  @keyframes kwanza {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes pili {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes tatu {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes nne {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-        body main .container #myitems .icons .subicons a.animate:nth-of-type(1) {
-          animation-duration: 1s;
-          animation-direction: normal;
-          animation-fill-mode: both;
-          animation-timing-function: ease;
-          animation-delay: 0.8s; }
-        body main .container #myitems .icons .subicons a.animate:nth-of-type(2) {
-          animation-duration: 1s;
-          animation-direction: normal;
-          animation-fill-mode: both;
-          animation-timing-function: ease;
-          animation-delay: 0.8s; }
-        body main .container #myitems .icons .subicons a.animate:nth-of-type(3) {
-          animation-duration: 1s;
-          animation-direction: normal;
-          animation-fill-mode: both;
-          animation-timing-function: ease;
-          animation-delay: 0.8s; }
-        body main .container #myitems .icons .subicons a.animate:nth-of-type(4) {
-          animation-duration: 1s;
-          animation-direction: normal;
-          animation-fill-mode: both;
-          animation-timing-function: ease;
-          animation-delay: 0.8s; }
-  @keyframes unos {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes des {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes tres {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes quadre {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
     body main .container #aboutme {
       flex-direction: column;
       margin-bottom: 0.5rem;
@@ -780,43 +844,6 @@ main {
       body main .container #aboutme .myabout {
         margin: 0.5rem 0;
         width: 100%; }
-        body main .container #aboutme .myabout .headsup {
-          visibility: hidden; }
-          body main .container #aboutme .myabout .headsup.revealToo {
-            animation-duration: 0s;
-            position: relative;
-            animation: smallheading;
-            animation-duration: 1s;
-            animation-direction: normal;
-            animation-fill-mode: both;
-            animation-timing-function: ease;
-            animation-delay: 1s;
-            transition: all 0.3s ease-out;
-            visibility: visible; }
-        body main .container #aboutme .myabout .paragraph {
-          visibility: hidden; }
-          body main .container #aboutme .myabout .paragraph.revealThree {
-            position: relative;
-            animation: smallparagraph;
-            animation-duration: 1s;
-            animation-direction: normal;
-            animation-fill-mode: both;
-            animation-timing-function: ease;
-            animation-delay: 1s;
-            transition: all 0.3s ease-out;
-            visibility: visible; }
-          body main .container #aboutme .myabout .paragraph a {
-            color: #e5ff00; }
-  @keyframes smallheading {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
-  @keyframes smallparagraph {
-    0% {
-      opacity: 0; }
-    100% {
-      opacity: 1; } }
     body main .container .mycontacts .boxes div {
       margin: 0.5rem 0; }
     body main .container .projects .item {

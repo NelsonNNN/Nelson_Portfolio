@@ -174,19 +174,19 @@ main{
                         }
                     }
                     @keyframes kwanza{
-                        0%{left: -500px;}
+                        0%{left: -2000px;}
                         100%{left: 0;}
                     }
                     @keyframes pili{
-                        0%{left: -500px;}
+                        0%{left: -2000px;}
                         100%{left: 0;}
                     }
                     @keyframes tatu{
-                        0%{left: -500px;}
+                        0%{left: -2000px;}
                         100%{left: 0;}
                     }
                     @keyframes nne{
-                        0%{left: -800px;}
+                        0%{left: -200px;}
                         100%{left: 0;}
                     }
                 }
@@ -234,19 +234,19 @@ main{
                         }
                     }
                     @keyframes unos{
-                        0%{right: -800px;}
+                        0%{right: -2000px;}
                         100%{right: 0;}
                     }
                     @keyframes des{
-                        0%{right: -500px;}
+                        0%{right: -2000px;}
                         100%{right: 0;}
                     }
                     @keyframes tres{
-                        0%{right: -500px;}
+                        0%{right: -2000px;}
                         100%{right: 0;}
                     }
                     @keyframes quadre{
-                        0%{right: -500px;}
+                        0%{right: -2000px;}
                         100%{right: 0;}
                     }
                 }
@@ -280,7 +280,7 @@ main{
                     }
                 }
                 @keyframes picture {
-                    0%{left: -900px}
+                    0%{left: -2000px}
                     100%{left: 0}
                 }
             }
@@ -293,20 +293,20 @@ main{
                 .headsup{
                     visibility: hidden;
                     &.revealToo{
+                        animation-duration: 0s;
                         position: relative;
-                        animation: heading;
-                        @include animate(0.5s);
+                        animation: smallheading;
+                        @include animate(1s);
                         @include easeOut;
                         visibility: visible;
                     }
                 } 
-                
                 .paragraph{
                     visibility: hidden;
                     &.revealThree{
                         position: relative;
-                        animation: paragraphOne;
-                        @include animate(0.5s);
+                        animation: smallparagraph;
+                        @include animate(1s);
                         @include easeOut;
                         visibility: visible;
                     }
@@ -314,12 +314,12 @@ main{
                         color:$secondary-color;
                     }
                 }
-                @keyframes heading {
-                    0%{right: -800px;}
+                @keyframes smallheading {
+                    0%{right: -2000px;}
                     100%{right: 0;}
                 }
-                @keyframes paragraphOne {
-                    0%{right: -800px;}
+                @keyframes smallparagraph {
+                    0%{right:-2000px;}
                     100%{right: 0;}
                 }
             }
