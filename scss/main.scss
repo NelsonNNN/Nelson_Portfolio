@@ -176,20 +176,20 @@ main{
                         }
                     }
                     @keyframes kwanza{
-                        0%{left: -2000px;}
-                        100%{left: 0;}
+                        0%{opacity: 0;}
+                        100%{opacity: 1;}
                     }
                     @keyframes pili{
-                        0%{left: -2000px;}
-                        100%{left: 0;}
+                        0%{opacity: 0;}
+                        100%{opacity: 1;}
                     }
                     @keyframes tatu{
-                        0%{left: -2000px;}
-                        100%{left: 0;}
-                    }
+                        0%{opacity: 0;}
+                        100%{opacity: 1;}
+                    }   
                     @keyframes nne{
-                        0%{left: -200px;}
-                        100%{left: 0;}
+                        0%{opacity: 0;}
+                        100%{opacity: 1;}
                     }
                 }
 
@@ -236,20 +236,20 @@ main{
                         }
                     }
                     @keyframes unos{
-                        0%{right: -2000px;}
-                        100%{right: 0;}
+                        0%{opacity: 0;}
+                        100%{opacity: 1;}
                     }
                     @keyframes des{
-                        0%{right: -2000px;}
-                        100%{right: 0;}
+                        0%{opacity: 0;}
+                        100%{opacity: 1;}
                     }
                     @keyframes tres{
-                        0%{right: -2000px;}
-                        100%{right: 0;}
+                        0%{opacity: 0;}
+                        100%{opacity: 1;}
                     }
                     @keyframes quadre{
-                        0%{right: -2000px;}
-                        100%{right: 0;}
+                        0%{opacity: 0;}
+                        100%{opacity: 1;}
                     }
                 }
             }
@@ -282,8 +282,9 @@ main{
                     }
                 }
                 @keyframes picture {
-                    0%{left: -2000px}
-                    100%{left: 0}
+                    0%{opacity: 0;}
+                    50%{opacity:0.5;}
+                    100%{opacity:1;}
                 }
             }
             .myabout{
@@ -317,12 +318,12 @@ main{
                     }
                 }
                 @keyframes smallheading {
-                    0%{right: -2000px;}
-                    100%{right: 0;}
+                    0%{opacity: 0;}
+                    100%{opacity: 1;}
                 }
                 @keyframes smallparagraph {
-                    0%{right:-2000px;}
-                    100%{right: 0;}
+                    0%{opacity: 0;}
+                    100%{opacity: 1;}
                 }
             }
         }
