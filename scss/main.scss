@@ -104,11 +104,12 @@ main{
                 position: relative;
                 top: -10%;
                 border: 2px $secondary-color solid;
-                width: 40vw;
+                width: fit-content;
                 background:  #1b1b1b;
                 color: $secondary-color;
                 a{
                     color: $secondary-color;
+                    padding: 1rem;
                 }
                 &:hover{
                     transform: scale(1.1);
@@ -140,6 +141,7 @@ main{
                 } 
                 ul{
                     display: flex;
+                    flex-wrap: wrap;
                     justify-content: space-evenly;
                     width: 100%;
                     li{
@@ -170,7 +172,7 @@ main{
                             }
                         }
                         i{
-                            color: $secondary-color;
+                            color: blue;
                         }
                     }
                     @keyframes kwanza{
@@ -415,6 +417,9 @@ main{
             margin: 0.5rem 0;
             position: relative;
             width: 100%;
+            a{
+                color: $secondary-color;
+            }
           }
           .projects {
             display: flex;

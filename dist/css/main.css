@@ -257,11 +257,12 @@ main {
         position: relative;
         top: -10%;
         border: 2px #e5ff00 solid;
-        width: 40vw;
+        width: fit-content;
         background: #1b1b1b;
         color: #e5ff00; }
         main .container .my-title .viewme a {
-          color: #e5ff00; }
+          color: #e5ff00;
+          padding: 1rem; }
         main .container .my-title .viewme:hover {
           transform: scale(1.1); }
     main .container #myitems {
@@ -285,6 +286,7 @@ main {
             top: 0%; }
         main .container #myitems .icons ul {
           display: flex;
+          flex-wrap: wrap;
           justify-content: space-evenly;
           width: 100%; }
           main .container #myitems .icons ul li {
@@ -326,7 +328,7 @@ main {
                 animation-delay: 0.3s;
                 transition: all 0.3s ease-out; }
             main .container #myitems .icons ul li i {
-              color: #e5ff00; }
+              color: blue; }
 
 @keyframes kwanza {
   0% {
@@ -567,6 +569,8 @@ main {
       margin: 0.5rem 0;
       position: relative;
       width: 100%; }
+      main .container .my-projects a {
+        color: #e5ff00; }
     main .container .projects {
       display: flex;
       flex-direction: column;
@@ -625,7 +629,7 @@ main {
   color: #fff;
   height: 60px; }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 5000px) and (min-width: 801px) {
   body main .container #myitems ul li.animate:nth-of-type(1) {
     animation-duration: 1s;
     animation-direction: normal;
@@ -774,7 +778,12 @@ main {
     0% {
       opacity: 0; }
     100% {
-      opacity: 1; } } }
+      opacity: 1; } }
+  body main .container .projects .item {
+    height: 60vh; }
+    body main .container .projects .item a img {
+      height: 60vh;
+      width: 95%; } }
 
 @media screen and (max-width: 800px) {
   ul.menu-nav,

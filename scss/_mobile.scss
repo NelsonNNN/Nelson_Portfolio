@@ -120,6 +120,15 @@
             100%{opacity: 1;}
         }
     }
+    body main .container .projects .item{
+        height:60vh;
+        a{
+            img{
+                height:60vh;
+                width: 95%;
+            }
+        }
+    }
 }
 
 // Tablets & Small Laptops
