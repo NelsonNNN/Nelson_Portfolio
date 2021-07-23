@@ -573,7 +573,8 @@ main {
       position: relative;
       width: 100%; }
       main .container .my-projects a {
-        color: #e5ff00; }
+        color: #e5ff00;
+        text-decoration: underline; }
     main .container .projects {
       display: flex;
       flex-direction: column;
