@@ -10,7 +10,7 @@
 body {
     @include background(-2, fixed);
     background: $primary-color;
-    color: set-text-color($primary-color);
+    color: ghostwhite;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
@@ -615,7 +615,7 @@ main {
     padding: 1rem;
     
     background: darken($primary-color, 10);
-    color: set-text-color($primary-color);
+    color: ghostwhite;
     height: 60px;
   }
     
