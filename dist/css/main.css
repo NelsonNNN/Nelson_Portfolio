@@ -1,3 +1,12 @@
+/* Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 60) {
+    @return #0000;
+  } @else {
+    @return #ffff;
+  }
+}
+    */
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -9,7 +18,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #ffff;
+    background: set-text-color(#858585);
     transition: all 0.3s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
