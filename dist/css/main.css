@@ -129,14 +129,15 @@
       background: url("../templates/pictures/menupic.jpg");
       background-size: cover;
       border-radius: 50%;
-      border: solid 3px #4bf3dea6; }
+      border: solid 4px #4bf3dea6; }
   .menu .nav-item {
     transform: scale(0);
     transition: all 0.3s ease-out; }
     .menu .nav-item.show {
       transform: scale(1, 1); }
     .menu .nav-item.current > a {
-      color: #4bf3dea6; }
+      color: #4bf3dea6;
+      text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -195,7 +196,8 @@ h3 {
   h1 span,
   h2 span,
   h3 span {
-    color: #4bf3dea6; }
+    color: #4bf3dea6;
+    text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7; }
 
 a {
   color: #fff;
@@ -210,7 +212,8 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #4bf3dea6; }
+  color: #4bf3dea6;
+  text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7; }
 
 main {
   margin: 4rem;
@@ -263,6 +266,7 @@ main {
         color: #4bf3dea6; }
         main .container .my-title .viewme a {
           color: #4bf3dea6;
+          text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7;
           padding: 1rem; }
         main .container .my-title .viewme:hover {
           transform: scale(1.1); }
@@ -270,7 +274,7 @@ main {
       display: flex;
       background: #1b1b1b;
       border-radius: 10px;
-      box-shadow: 3px 3px 10px 0.1px #4bf3dea6; }
+      box-shadow: 4px 4px 10px 0.1px #4bf3dea6; }
       main .container #myitems .icons {
         display: flex;
         flex-direction: column;
@@ -401,7 +405,8 @@ main {
             main .container #myitems .icons .subicons a:hover {
               transform: scale(1.3); }
             main .container #myitems .icons .subicons a i {
-              color: #4bf3dea6; }
+              color: #4bf3dea6;
+              text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7; }
 
 @keyframes unos {
   0% {
@@ -430,7 +435,7 @@ main {
       display: flex;
       background: #1b1b1b;
       border-radius: 10px;
-      box-shadow: 3px 3px 10px 0.1px #4bf3dea6; }
+      box-shadow: 4px 4px 10px 0.1px #4bf3dea6; }
       main .container #aboutme .profile {
         width: 50%;
         margin: 2rem 0.5rem; }
@@ -490,7 +495,8 @@ main {
             transition: all 0.3s ease-out;
             visibility: visible; }
           main .container #aboutme .myabout .paragraph a {
-            color: #4bf3dea6; }
+            color: #4bf3dea6;
+            text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7; }
 
 @keyframes smallheading {
   0% {
@@ -507,7 +513,7 @@ main {
       margin: 2rem 0.5rem;
       background: #1b1b1b;
       border-radius: 10px;
-      box-shadow: 3px 3px 10px 0.1px #4bf3dea6; }
+      box-shadow: 4px 4px 10px 0.1px #4bf3dea6; }
       main .container .mycontacts .boxes {
         display: flex;
         flex-wrap: wrap;
@@ -537,13 +543,15 @@ main {
           main .container .mycontacts .boxes div:hover {
             transform: translateX(5px);
             color: #0000;
+            text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7;
             box-shadow: none; }
             main .container .mycontacts .boxes div:hover::after {
               height: 100%;
               top: 0%;
               bottom: auto; }
             main .container .mycontacts .boxes div:hover span {
-              color: #0000; }
+              color: #0000;
+              text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7; }
       main .container .mycontacts .message form {
         display: flex;
         flex-direction: column;
@@ -560,11 +568,12 @@ main {
       margin: 2rem 0.5rem;
       background: #1b1b1b;
       border-radius: 10px;
-      box-shadow: 3px 3px 10px 0.1px #4bf3dea6;
+      box-shadow: 4px 4px 10px 0.1px #4bf3dea6;
       display: flex;
       justify-content: space-between; }
       main .container .backfront a {
         color: #4bf3dea6;
+        text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7;
         margin: 1rem; }
     main .container .work-title {
       margin-top: 2rem; }
@@ -574,6 +583,7 @@ main {
       width: 100%; }
       main .container .my-projects a {
         color: #4bf3dea6;
+        text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7;
         text-decoration: underline; }
     main .container .projects {
       display: flex;
@@ -588,7 +598,7 @@ main {
         margin-bottom: 3rem;
         background: #1b1b1b;
         border-radius: 10px;
-        box-shadow: 3px 3px 10px 0.1px #4bf3dea6; }
+        box-shadow: 4px 4px 10px 0.1px #4bf3dea6; }
         main .container .projects .item .description {
           grid-column-start: 1;
           grid-column-end: 3;
@@ -624,7 +634,8 @@ main {
       main .container .cv img {
         margin: 1rem 0; }
       main .container .cv span {
-        color: #4bf3dea6; }
+        color: #4bf3dea6;
+        text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7; }
 
 #main-footer {
   text-align: center;
