@@ -33,10 +33,10 @@ $background-opacity: 0.9;
 
 // Set Text Color
 @function set-text-color($color) {
-  @if (lightness($color) > 40) {
-    @return #000;
+  @if (lightness($color) > 60) {
+    @return #0000;
   } @else {
-    @return #fff;
+    @return #ffff;
   }
 }
 
