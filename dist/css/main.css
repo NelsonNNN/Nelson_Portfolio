@@ -18,7 +18,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: set-text-color(#858585);
+    background: ghostwhite;
     transition: all 0.3s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
