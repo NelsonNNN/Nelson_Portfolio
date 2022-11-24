@@ -542,14 +542,14 @@ main {
             z-index: -1; }
           main .container .mycontacts .boxes div:hover {
             transform: translateX(5px);
-            color: #0000;
+            color: black;
             box-shadow: none; }
             main .container .mycontacts .boxes div:hover::after {
               height: 100%;
               top: 0%;
               bottom: auto; }
             main .container .mycontacts .boxes div:hover span {
-              color: #0000; }
+              color: black; }
       main .container .mycontacts .message form {
         display: flex;
         flex-direction: column;

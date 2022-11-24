@@ -466,7 +466,7 @@ main {
 
                     &:hover {
                         transform: translateX(5px);
-                        color: set-text-color($secondary-color);
+                        color: black;
                         box-shadow: none;
 
                         &::after {
@@ -476,7 +476,7 @@ main {
                         }
 
                         span {
-                            color: set-text-color($secondary-color);
+                            color: black;
                         }
                     }
                 }
