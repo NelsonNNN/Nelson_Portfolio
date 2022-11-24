@@ -467,7 +467,6 @@ main {
                     &:hover {
                         transform: translateX(5px);
                         color: set-text-color($secondary-color);
-                        text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7;
                         box-shadow: none;
 
                         &::after {
@@ -478,7 +477,6 @@ main {
 
                         span {
                             color: set-text-color($secondary-color);
-                            text-shadow: 0 0 7px #6c91f6, 0 0 10px #6c91f6, 0 0 21px #6c91f6, 0 0 42px #e7edf7;
                         }
                     }
                 }
