@@ -3,10 +3,11 @@
     "",
     "\\dist",
     "\\dist\\css",
+    "\\dist\\fontawesome-free-5.15.3-web",
+    "\\dist\\fontawesome-free-5.15.3-web\\css",
     "\\dist\\templates",
-    "\\dist\\templates\\Pictures",
-    "\\scss"
+    "\\dist\\templates\\Pictures"
   ],
-  "SelectedNode": "\\dist\\templates\\Pictures\\Nelson Nyamwaro Resume",
+  "SelectedNode": "\\dist\\fontawesome-free-5.15.3-web",
   "PreviewInSolutionExplorer": false
 }
