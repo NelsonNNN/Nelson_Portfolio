@@ -4,10 +4,9 @@
     "\\dist",
     "\\dist\\css",
     "\\dist\\templates",
-    "\\dist\\templates\\pictures",
-    "\\dist\\templates\\pictures\\Nelson Nyamwaro Resume",
+    "\\dist\\templates\\Pictures",
     "\\scss"
   ],
-  "SelectedNode": "\\dist\\projects.html",
+  "SelectedNode": "\\dist\\templates\\Pictures\\Nelson Nyamwaro Resume",
   "PreviewInSolutionExplorer": false
 }
