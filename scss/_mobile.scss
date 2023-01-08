@@ -132,49 +132,53 @@
 }
 
 // Tablets & Small Laptops
-  @include mediumDevices {
+@include mediumDevices {
     ul.menu-nav,
     div.menu-branding {
-      float: none;
-      width: 100%;
-      min-height: 0;  
+        float: none;
+        width: 100%;
+        min-height: 0;
     }
-  
+
     .menu-nav {
-      height: 75vh;
-      transform: translate3d(0, 0, 0);
-      font-size: 24px;
-      transition-delay: 0.2s;
-      height: 0;
-      &.show {
-        transform: translate3d(0, 0, 0);
-        transition-delay: 0.3s;
         height: 75vh;
-      }
-      .nav-item{
-        transition-delay: 0s;
-        &.show{
-          transition-delay: 0.3s;
-        }
-      }
-    }
-  
-    .menu-branding {
-      height: 0;
-      transform: translate3d(0, -100%, 0);
-      transition-delay: 0.5s;
-      &.show {
         transform: translate3d(0, 0, 0);
-        transition-delay: 0s;
-        height: 25vh;
-      }
-  
-      .portrait {
-        background: url('../templates/pictures/menupic.jpg');
-        background-size: cover;
-        width: 150px;
-        height: 150px;
-      }
+        font-size: 24px;
+        transition-delay: 0.2s;
+        height: 0;
+
+        &.show {
+            transform: translate3d(0, 0, 0);
+            transition-delay: 0.3s;
+            height: 75vh;
+        }
+
+        .nav-item {
+            transition-delay: 0s;
+
+            &.show {
+                transition-delay: 0.3s;
+            }
+        }
+    }
+
+    .menu-branding {
+        height: 0;
+        transform: translate3d(0, -100%, 0);
+        transition-delay: 0.5s;
+
+        &.show {
+            transform: translate3d(0, 0, 0);
+            transition-delay: 0s;
+            height: 25vh;
+        }
+
+        .portrait {
+            background: url('..dist/templates/pictures/menupic.jpg');
+            background-size: cover;
+            width: 150px;
+            height: 150px;
+        }
     }
 
 
@@ -183,26 +187,30 @@
         padding: 1rem;
         align-items: center;
         text-align: center;
-        
-        .container{
+
+        .container {
             .my-title {
                 line-height: 1;
                 margin-bottom: 1rem;
-              }
-      
-            #myitems{
+            }
+
+            #myitems {
                 flex-direction: column;
                 margin-bottom: 0.5rem;
-                .icons{
+
+                .icons {
                     width: 100%;
                     margin: 1rem 0;
-                    div{
+
+                    div {
                         margin: 1rem 0;
                     }
-                    &:first-child{
+
+                    &:first-child {
                         margin: 1rem 0;
                         position: relative;
-                        &::after{
+
+                        &::after {
                             position: absolute;
                             width: 70%;
                             top: 115%;
@@ -212,49 +220,54 @@
                     }
                 }
             }
-            #aboutme{
+
+            #aboutme {
                 flex-direction: column;
                 margin-bottom: 0.5rem;
                 margin-top: 4rem;
-                .profile{
+
+                .profile {
                     margin: 0.5rem 0;
                     width: 100%;
                 }
-                .myabout{
+
+                .myabout {
                     margin: 0.5rem 0;
                     width: 100%;
                 }
             }
 
-            .mycontacts{
-                .boxes{
-                    div{
+            .mycontacts {
+                .boxes {
+                    div {
                         margin: 0.5rem 0;
                     }
                 }
             }
 
-            .projects{
-                .item{
+            .projects {
+                .item {
                     grid-template-columns: auto;
                     grid-template-rows: auto auto auto auto;
-                    
-                    .description{
+
+                    .description {
                         grid-row: 3/4;
                         grid-column: 1;
                     }
-                    a:first-child{
+
+                    a:first-child {
                         width: 100%;
                         grid-row: 1/3;
                         grid-column: 1;
                     }
-                    a:nth-child(3){
+
+                    a:nth-child(3) {
                         grid-row: 4/5;
                         grid-column: 1;
                         width: 60vw;
-
                     }
-                    a:nth-child(4){
+
+                    a:nth-child(4) {
                         grid-row: 5/6;
                         grid-column: 1;
                         width: 60vw;
@@ -262,10 +275,8 @@
                 }
             }
         }
-        
     }
-    
-  }
+}
   
   // Smartphones
   @include smallDevices {
