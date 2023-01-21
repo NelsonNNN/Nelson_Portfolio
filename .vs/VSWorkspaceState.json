@@ -3,11 +3,8 @@
     "",
     "\\dist",
     "\\dist\\css",
-    "\\dist\\fontawesome-free-5.15.3-web",
-    "\\dist\\fontawesome-free-5.15.3-web\\css",
-    "\\dist\\templates",
-    "\\dist\\templates\\Pictures"
+    "\\scss"
   ],
-  "SelectedNode": "\\dist\\fontawesome-free-5.15.3-web",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
