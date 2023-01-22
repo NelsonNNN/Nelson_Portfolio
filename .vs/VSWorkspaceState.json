@@ -3,8 +3,10 @@
     "",
     "\\dist",
     "\\dist\\css",
+    "\\dist\\templates",
+    "\\dist\\templates\\pictures",
     "\\scss"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\dist\\repositories.html",
   "PreviewInSolutionExplorer": false
 }
