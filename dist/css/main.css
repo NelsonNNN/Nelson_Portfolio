@@ -836,7 +836,7 @@ main {
       transition-delay: 0s;
       height: 25vh; }
     .menu-branding .portrait {
-      background: url("../templates/pictures/menupic.jpg");
+      background: url("menupic.jpg");
       background-size: cover;
       width: 150px;
       height: 150px; }
