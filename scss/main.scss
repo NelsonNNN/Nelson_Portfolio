@@ -109,8 +109,9 @@ main {
                 position: relative;
                 top: -10%;
                 border: 2px $secondary-color solid;
+                border-radius: 10px;
                 width: fit-content;
-                background: #1b1b1b;
+                background-color: darkblue;
                 color: $secondary-color;
 
                 a {
@@ -128,7 +129,7 @@ main {
         #myitems {
             display: flex;
             background: #1b1b1b;
-            border-radius: 10px;
+            border-radius: 50px;
             box-shadow: 4px 4px 10px 0.1px $secondary-color;
 
             .icons {
