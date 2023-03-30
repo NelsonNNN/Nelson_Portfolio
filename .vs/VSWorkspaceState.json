@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\dist",
+    "\\dist\\css",
+    "\\dist\\fontawesome",
+    "\\dist\\templates",
+    "\\dist\\templates\\pictures",
+    "\\scss"
   ],
-  "SelectedNode": "\\C:\\Users\\nelli\\OneDrive\\Documents\\Github\\Portfolio",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }
