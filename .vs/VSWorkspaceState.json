@@ -3,11 +3,10 @@
     "",
     "\\dist",
     "\\dist\\css",
-    "\\dist\\fontawesome",
     "\\dist\\templates",
     "\\dist\\templates\\pictures",
     "\\scss"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\dist\\templates\\pictures\\Flaskapp.png",
   "PreviewInSolutionExplorer": false
 }
