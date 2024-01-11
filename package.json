@@ -2,7 +2,7 @@
   "name": "nelson_portfolio",
   "version": "1.0.0",
   "description": "My portfolio website",
-  "main": "index.js",
+  "main": "index.html",
   "homepage": "https://nelsonnnn.github.io/nelson_portfolio",
   "scripts": {
     "deploy": "gh-pages -d dist",
