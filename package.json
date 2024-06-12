@@ -18,7 +18,9 @@
     "url": "https://github.com/NelsonNNN/nelson_portfolio/issues"
   },
   "dependencies": {
-    "node-sass": "^9.0.0"
+    "node": "^22.3.0",
+    "node-sass": "^9.0.0",
+    "nodee": "^0.1.0"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1"
